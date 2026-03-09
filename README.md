@@ -34,21 +34,6 @@ O desenvolvimento deste sistema foi um grande passo prático para consolidar meu
 - **Gerenciamento de Recursos (Conexões):** Utilizei o bloco `try-with-resources` para garantir que as conexões com o banco de dados sejam abertas e fechadas automaticamente. Isso evita vazamentos de memória e sobrecarga no servidor de banco de dados.
 - **Lógica de Menus Dinâmicos:** Consolidei o uso da classe `Scanner` junto com laços de repetição (`while`) e estruturas de decisão (`switch-case`) para criar uma navegação contínua pelo terminal.
 
-## 🗄️ Configuração do Banco de Dados
-
-Para rodar este projeto, você precisará criar o banco de dados e a tabela no MySQL. Execute o script abaixo no seu gerenciador de banco de dados (ex: MySQL Workbench):
-
-```sql
-CREATE DATABASE estoque;
-USE estoque;
-
-CREATE TABLE produtos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    preco DOUBLE NOT NULL,
-    quantidade INT NOT NULL
-);
-
 💻 Como Executar na Sua Máquina
 Pré-requisitos
 Java Development Kit (JDK) instalado.
