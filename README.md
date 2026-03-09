@@ -34,4 +34,6 @@ O desenvolvimento deste sistema foi um grande passo prático para consolidar meu
 - **Gerenciamento de Recursos (Conexões):** Utilizei o bloco `try-with-resources` para garantir que as conexões com o banco de dados sejam abertas e fechadas automaticamente. Isso evita vazamentos de memória e sobrecarga no servidor de banco de dados.
 - **Lógica de Menus Dinâmicos:** Consolidei o uso da classe `Scanner` junto com laços de repetição (`while`) e estruturas de decisão (`switch-case`) para criar uma navegação contínua pelo terminal.
 
+
+
 - Desenvolvido por Guilherme.
